@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
+body{
+	background-color: #222222;
+	font-family: 'Pacifico',cursive;
+	color: black;
+}
+
+.jumbotron{
+margin-top: 100px;
+}
+
+.home{
+	background-image: url(Woodbackground.jpg);
+	background-size: cover;
+	height: 700px;
+	margin-bottom: 10px;
+	width: 99%;
+	margin-left: 10px;
+}
+
+.work{
+	background-image: url("IMG_3116.jpg");
+	background-size: cover;
+	height: 1000px;
+	margin-bottom: 10px;
+	width: 99%;
+	margin-left: 10px;
+}
+
+.contact{
+	background-image: url("http://unsplash.com/photos/kZvmEpyfiJs/download?force=true");
+	background-size: cover;
+	height: 1000px;
+	width: 99%;
+	margin-left: 10px;
+}
+
+.title1{
+	font-family: 'Lobster', cursive;
+}
+
+.title2{
+	font-family: 'Pacifico',cursive;
+}
+
+.btn btn-default{
+	font-family: 'Pacifico',cursive;
+}
+
+.aboutme{
+	background-color:black;
+	opacity: .8;
+	position: static;
+	color: white;
+	padding:20px;
+	margin-left:20%;
+	margin-right: 20%;
+	font-family: "Times New Roman", Georgia, Serif;
+}
