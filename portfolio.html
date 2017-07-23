@@ -1,263 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/png" href="laptop.ico"/>
-		<meta name="description" content="The site host a brief of myself, my past work, and a contact section">
-		<meta name="author" content="Code and design by Khalil Saboor">
+    <link rel="shortcut icon" type="image/png" href="laptop.ico" />
+    <meta name="description" content="The site host a brief bio of myself, my past work, and a contact section">
+    <meta name="author" content="Code and design by Khalil Saboor">
     <title>Khalil Saboor's Portfolio</title>
 
-		<!--fontawesome link-->
-		<script src="https://use.fontawesome.com/8528611a7c.js"></script>
+    <!--fontawesome link-->
+    <script src="https://use.fontawesome.com/8528611a7c.js"></script>
 
-		<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-		<!--CSS -->
-		<link rel="stylesheet" href="portfolio.css">
+    <!--CSS -->
+    <link rel="stylesheet" href="portfolio.css">
 
-		<!--font family -->
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!--font family -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<body>
+    <!-- navigation-->
+    <div class="home">
+        <a id="home" class="smooth"></a>
+        <nav class="navbar navbar-toggleable-md navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand active" href="#">Portfolio</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        </nav>
 
-  <body>
-		<!-- navigation-->
-		<div class="home">
-		<a id="home" class="smooth"></a>
-		<nav class="navbar navbar-toggleable-md navbar-inverse navbar-fixed-top" role="navigation">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand active" href="#">Portfolio</a>
-		    <ul class="nav navbar-nav">
-		      <li><a href="#">Home</a></li>
-		      <li><a href="#work">Work</a></li>
-		      <li><a href="#contact">Contact</a></li>
-		    </ul>
-		  </div>
-		</nav>
+        <!--home title-->
+        <div class="jumbotron text-center">
+            <h1 class="title1">Khalil Saboor</h1>
+            <p class="title2">Front End Web Developer</p>
 
-		<!--home title-->
-		<div class="jumbotron text-center">
-  <h1 class="title1">Khalil Saboor</h1>
-  <p class="title2">Front End Web Developer</p>
+            <!-- social media links-->
+            <div class="btnList text-center">
+                <a class="btn btn-default" href="https://twitter.com/justcallme_lil" target="_blank"><i class="fa fa-twitter" aria-hidden="true"> Twitter</i></a>
+                <a class="btn btn-default" href="https://www.facebook.com/khalil.saboor.9" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"> Facebook</i></a>
+                <a class="btn btn-default" href="https://github.com/kmsaboor22" target="_blank"><i class="fa fa-github" aria-hidden="true"> Github</i></a>
+                <a class="btn btn-default" href="https://www.linkedin.com/in/khalil-saboor-7871929a/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"> Linkedin</i></a>
+            </div>
+        </div>
+        <div class="aboutme">
+            <main>
+                <h2>Hello,</h2>
+                <h4 class="text-left">
+                    my name is Khalil Saboor, I'm 21 y/o and I am a self-taught Jr Front-End Developer based in Lower Merion, PA. I love crafting beautiful web pages in HTML5, CSS3, and JavaScript or jQuery. As a learning guide, I use freecodecamp.com, Codeacedemy.com, Udemy.com
+                    to further my learning in Front-End-Development. </h4>
+        </div>
+        </div>
 
-	<!-- social media links-->
-	<div class="btnList text-center">
-		<a class="btn btn-default" href="https://twitter.com/justcallme_lil" target="_blank"><i class="fa fa-twitter" aria-hidden="true"> Twitter</i></a>
-		<a class="btn btn-default" href="https://www.facebook.com/khalil.saboor.9" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"> Facebook</i></a>
-		<a class="btn btn-default" href="https://github.com/kmsaboor22" target="_blank"><i class="fa fa-github" aria-hidden="true"> Github</i></a>
-		<a class="btn btn-default" href="https://www.linkedin.com/in/khalil-saboor-7871929a/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"> Linkedin</i></a>
-			</div>
-		</div>
-		<div class="aboutme">
-		<h2>Hello,</h2>
-		<h4 class="text-left">
-				 my name is Khalil Saboor, I'm 21 y/o and I am a self-taught Jr
-				 Front-End Developer based in Lower Merion,
-				 PA. I love crafting beautiful web pages in HTML5, CSS3, and JavaScript or jQuery.
-				 As a learning guide, I use freecodecamp.com, Codeacedemy.com,
-				 Udemy.com to further my learning in Front-End-Development. </h4>
-	</div>
-	<img src="Khalil.jpg" class="img-thumbnail" alt="Cinque Terre" width="204" height="236">
-</div>
+        <div id="work" class="work">
+            <h1 class="workTitle">Portfolio</h1>
 
-	<div id="work" class="work">
-		<h1 class="workTitle">Portfolio</h1>
-		<div class="supports"></div>
-		<ul class="list img-list">
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-sq2.jpg" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		       <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-sq3.jpg" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-sq4.jpg" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="clock.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-sq6.jpg" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-sq6.jpg" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		       <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="huey.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="Email.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="jscal.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="quote.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="wiki.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		  <li>
-		    <a href="#" class="inner">
-		      <div class="li-img">
-		        <img src="weather.png" alt="Hot air balloons" />
-		      </div>
-		      <div class="li-text">
-		        <h3 class="li-head">Title of Content</h3>
-		        <div class="li-sub">
-		          <p>Summary of content.</p>
-		        </div>
-		      </div>
-		    </a>
-		  </li>
-		</ul>
-</div>
-</div>
+        </div>
 
-	<div id="contact" class="contact">
-		<h1 class="contactTitle">Contact Me!!!</h1>
+        <div id="contact" class="contact">
+            <h2 class="contactTitle">Contact Me!!!</<h2>
 
-	<footer class="footer">
+                <footer class="footer">
 
-	</footer>
-</div>
+                </footer>
+        </div>
+</body>
 
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script>
-		$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
-    return false;
-});
-		</script>
-  </body>
 </html>

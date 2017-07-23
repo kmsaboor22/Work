@@ -1,170 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
-body{
-	background-color: #222222;
-	font-family: 'Pacifico',cursive;
-	color: black;
+body {
+    background-color: #222222;
+    font-family: 'Pacifico', cursive;
+    color: black;
 }
 
-.jumbotron{
-margin-top: 100px;
+.jumbotron {
+    margin-top: 100px;
 }
 
-.home{
-	background-image: url(Woodbackground.jpg);
-	background-size: cover;
-	height: 900px;
-	margin-bottom: 10px;
-	width: 99%;
-	margin-left: 10px;
+.home {
+    background-image: url(Woodbackground.jpg);
+    background-size: cover;
+    height: 900px;
+    margin-bottom: 10px;
+    width: 99%;
+    margin-left: 10px;
 }
 
-.work{
-	background-image: url("IMG_3116.jpg");
-	background-size: cover;
-	height: 1000px;
-	margin-bottom: 10px;
-	width: 99%;
-	margin-left: 10px;
+.work {
+    background-image: url("IMG_3116.jpg");
+    background-size: cover;
+    height: 1000px;
+    margin-bottom: 10px;
+    width: 99%;
+    margin-left: 10px;
 }
 
-.contact{
-	background-image: url("dustin-lee-19666.jpg");
-	background-size: cover;
-	height: 1000px;
-	width: 99%;
-	margin-left: 10px;
+.contact {
+    background-image: url("dustin-lee-19666.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 99%;
+    margin-left: 10px;
 }
 
-.title1{
-	font-family: 'Lobster', cursive;
+.title1 {
+    font-family: 'Lobster', cursive;
 }
 
-.title2{
-	font-family: 'Pacifico',cursive;
+.title2 {
+    font-family: 'Pacifico', cursive;
 }
 
-.btn btn-default{
-	font-family: 'Pacifico',cursive;
+.btn btn-default {
+    font-family: 'Pacifico', cursive;
 }
 
-.aboutme{
-	background-color:black;
-	opacity: .8;
-	position: static;
-	color: white;
-	padding:20px;
-	margin-left:3%;
-	margin-right: 50%;
-	font-family: "Times New Roman", Georgia, Serif;
-}
-.workTitle{
-	padding-top: 5%;
-	font-size: 6em;
-	text-align: center;
+.aboutme {
+    background-color: black;
+    opacity: .8;
+    position: static;
+    color: white;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 50%;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
-.contactTitle{
-	padding-top: 5%;
-	font-size: 6em;
-	text-align: center;
-
+.workTitle {
+    padding-top: 5%;
+    font-size: 6em;
+    text-align: center;
 }
 
-.img-thumbnail{
-	align-content: space-around;
-}
-
-.list {
-  max-width: 1400px;
-  margin: 20px auto;
-}
-
-.img-list a {
-  text-decoration: none;
-}
-
-.li-sub p {
-  margin: 0;
-}
-
-.list li {
-  border-bottom: 1px solid black;
-  display: table;
-  border-collapse: collapse;
-  width: 100%;
-}
-.inner {
-  display: table-row;
-  overflow: hidden;
-}
-.li-img {
-  display: table-cell;
-  vertical-align: middle;
-  width: 30%;
-  padding-right: 1em;
-}
-.li-img img {
-  display: block;
-  width: 100%;
-  height: auto;
-
-}
-.li-text {
-  display: table-cell;
-  vertical-align: middle;
-  width: 70%;
-}
-.li-head {
-  margin: 10px 0 0 0;
-}
-.li-sub {
-  margin: 0;
-}
-
-@media all and (min-width: 45em) {
-  .list li {
-    float: left;
-    width: 50%;
-  }
-}
-
-@media all and (min-width: 75em) {
-  .list li {
-    width: 33.33333%;
-  }
-}
-
-/* for flexbox */
-@supports(display: flex) {
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .li-img,
-  .li-text,
-  .list li {
-    display: block;
-    float: none;
-  }
-
-  .li-img {
-    align-self: center; /* to match the middle alignment of the original */
-  }
-
-  .inner {
-    display: flex;
-  }
-}
-
-/* for grid */
-@supports(display: grid) {
-  .list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  }
-
-  .list li {
-    width: auto; /* this overrides the media queries */
-  }
+.contactTitle {
+    padding-top: 5%;
+    font-size: 6em;
+    text-align: center;
 }
